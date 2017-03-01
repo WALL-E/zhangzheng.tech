@@ -74,18 +74,18 @@
 	};
 
 	var step1 = step({
-		cwd: '[root@RestHub-DEV ~]#',
+		cwd: '[root@RestHub-DEV ~]# ',
 		cmd: ' whois',
 		cls: ''
 	});
 
 	var step2 = step({
-		cmd: 'i am a front-ender, graduate from  Guangdong University of Technology.',
+		cmd: 'i am a full stack developer, like c, python and js.',
 		cls: 'result line'
 	});
 
 	var step3 = step({
-		cmd: 'my name is zhangkaihao, i live in Zhuhai now.',
+		cmd: 'my name is zhangzheng, i live in Beijing now.',
 		cls: 'result line'
 	});
 
@@ -95,7 +95,7 @@
 	});
 
 	var step5 = step({
-		cwd: 'C:\\Users\\monkindey\\hobby> ',
+		cwd: '[root@RestHub-DEV ~]# ',
 		cmd: ' dir'
 	});
 
@@ -105,12 +105,12 @@
 	});
 
 	var step7 = step({
-		cwd: 'C:\\Users\\monkindey\\hobby> ',
+		cwd: '[root@RestHub-DEV ~]# ',
 		cmd: 'cd coding',
 	});
 
 	var step8 = step({
-		cwd: 'C:\\Users\\monkindey\\hobby\\coding> ',
+		cwd: '[root@RestHub-DEV ~]# ',
 		cmd: 'dir',
 	});
 
@@ -120,7 +120,7 @@
 	});
 
 	var step10 = step({
-		cwd: 'C:\\Users\\monkindey\\hobby\\coding> ',
+		cwd: '[root@RestHub-DEV ~]#> ',
 		cmd: 'net start github'
 	});
 
