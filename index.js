@@ -74,7 +74,7 @@
 	};
 
 	var step1 = step({
-		cwd: 'C:\\Users\\monkindey>',
+		cwd: '[root@RestHub-DEV ~]#',
 		cmd: ' whois',
 		cls: ''
 	});
