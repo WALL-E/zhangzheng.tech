@@ -115,13 +115,13 @@
 	});
 
 	var step9 = step({
-		cmd: 'github',
+		cmd: 'core_modules  depend.sh  README.md  resthub-core-install.sh',
 		cls: 'result line'
 	});
 
 	var step10 = step({
 		cwd: '[root@RestHub-DEV resthub-core]#',
-		cmd: 'net start github'
+		cmd: 'open github'
 	});
 
 	var step11 = step({
