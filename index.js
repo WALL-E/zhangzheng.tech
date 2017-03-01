@@ -127,7 +127,7 @@
 	var step11 = step({
 		cmd: 'opening......',
 		cb: function() {
-			window.location.href = 'https://github.com/monkindey'
+			window.location.href = 'https://github.com/WALL-E/'
 		}
 	});
 
