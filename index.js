@@ -80,7 +80,7 @@
 	});
 
 	var step2 = step({
-		cmd: 'i am a full stack developer, like c, python and js.',
+		cmd: 'i am a full stack developer, like lua, python and js.',
 		cls: 'result line'
 	});
 
