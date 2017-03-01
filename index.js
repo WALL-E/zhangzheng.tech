@@ -74,7 +74,7 @@
 	};
 
 	var step1 = step({
-		cwd: '[root@RestHub-DEV ~]# ',
+		cwd: '[root@RestHub-DEV ~]#',
 		cmd: ' whois',
 		cls: ''
 	});
@@ -90,28 +90,28 @@
 	});
 
 	var step4 = step({
-		cwd: 'C:\\Users\\monkindey>',
-		cmd: ' cd hobby'
+		cwd: '[root@RestHub-DEV ~]#',
+		cmd: ' cd resthub-core'
 	});
 
 	var step5 = step({
-		cwd: '[root@RestHub-DEV ~]# ',
-		cmd: ' dir'
+		cwd: '[root@RestHub-DEV ~]#',
+		cmd: ' ls'
 	});
 
 	var step6 = step({
-		cmd: 'basketball coding',
+		cmd: 'resthub-core resthub-manager',
 		cls: 'result line'
 	});
 
 	var step7 = step({
-		cwd: '[root@RestHub-DEV ~]# ',
-		cmd: 'cd coding',
+		cwd: '[root@RestHub-DEV ~]#',
+		cmd: 'cd resthub-core',
 	});
 
 	var step8 = step({
-		cwd: '[root@RestHub-DEV ~]# ',
-		cmd: 'dir',
+		cwd: '[root@RestHub-DEV resthub-core]#',
+		cmd: 'ls',
 	});
 
 	var step9 = step({
@@ -120,7 +120,7 @@
 	});
 
 	var step10 = step({
-		cwd: '[root@RestHub-DEV ~]#> ',
+		cwd: '[root@RestHub-DEV resthub-core]#',
 		cmd: 'net start github'
 	});
 
