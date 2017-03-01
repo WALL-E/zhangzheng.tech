@@ -75,7 +75,7 @@
 
 	var step1 = step({
 		cwd: '[root@RestHub-DEV ~]#',
-		cmd: ' whois',
+		cmd: ' whoami',
 		cls: ''
 	});
 
